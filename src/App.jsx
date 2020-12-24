@@ -47,7 +47,7 @@ const options = [
 //   },
 // ];
 
-export default () => {
+const App = () => {
   const [selected, setSelected] = useState(options[0]);
   //   const [toogle, setToogle] = useState(true);
   //   const [selectedLanguage, setSelectedLanguage] = useState(language[0]);
@@ -81,3 +81,5 @@ export default () => {
     </div>
   );
 };
+
+export default App;
